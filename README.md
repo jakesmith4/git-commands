@@ -94,7 +94,7 @@ git add {file name}
 git commit -m "Inital Commit"
 ```
 
-> THEN GO TO GITHUB AND CREATE A _**NEW REPO.**_ THEN COPY THE _**GIT REMOTE COMMAND.**_ THEN DO THE FOLLOWING COMMAND
+> THEN GO TO GITHUB AND CREATE A _**NEW REPO.**_ THEN COPY THE _**GIT REMOTE COMMAND.**_ THEN DO THE _**FOLLOWING COMMAND**_
 
 ```bash
 git push -u origin master
@@ -134,7 +134,7 @@ git clone {copyed repo link from github (THE REPO YOU WANT TO COPY)}
 git restore --staged {file name}
 ```
 
-### Remove Files Or Changes From Working Directory Or _REVERT BACK_
+### Remove Files Or Changes From Working Directory Or _**REVERT BACK**_
 
 ```bash
 git restore .
