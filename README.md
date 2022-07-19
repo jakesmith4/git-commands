@@ -100,7 +100,7 @@ git commit -m "Inital Commit"
 git push -u origin master
 ```
 
-## Push Changes To Master Origin
+## Push Changes Github After Inital Push
 
 ```bash
 git push
