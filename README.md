@@ -94,7 +94,7 @@ git add {file name}
 git commit -m "Inital Commit"
 ```
 
-> THEN GO TO GITHUB AND CREATE A REPO. THEN COPY THE GIT REMOTE COMMAND THEN DO THE FOLLOWING COMMAND
+> THEN GO TO GITHUB AND CREATE A _**NEW REPO.**_ THEN COPY THE _**GIT REMOTE COMMAND.**_ THEN DO THE FOLLOWING COMMAND
 
 ```bash
 git push -u origin master
@@ -118,10 +118,10 @@ git commit -am "{message goes here}"
 
 ### Cloning A Repo
 
-> GO TO THE REPO ON GITHUB AND COPY THE LINK FROM THE REPO YOU WANT TO CLONE THEN RUN THE FOLLOWING COMMAND
+> GO TO THE REPO YOU WANT TO CLONE ON _**GITHUB**_ THEN CLICK THE _**GREEN CODE BUTTON.**_ COPY THE _**LINK**_ FROM THE REPO YOU WANT TO CLONE, IT WILL BE THE _**LINK**_ UNDER THE _**HTTPS**_ TAB, NOT THE SSH TAB. THEN RUN THE _**FOLLOWING COMMAND**_ IN THE FOLDER OR DIRECTORY YOU WANT THE FILES TO BE CLONED IN
 
 ```bash
-git clone {copyed repo from github (THE REPO YOU WANT TO COPY)}
+git clone {copyed repo link from github (THE REPO YOU WANT TO COPY)}
 ```
 
 ## **_REMOVING FILES OR RESTORING/REVERTING_**
@@ -236,7 +236,7 @@ git checkout {branch name}
 git merge {branch name}
 ```
 
-> THEN PRESS I FOR INSERT THEN TYPE Added {Your Text Here}. THEN PRESS ESC. THEN PRES :wq
+> _**IF THE BASH WANTS INPUT:**_ THEN PRESS _**I**_ FOR INSERT, THEN TYPE _**Added {Your Text Here}**_ THEN PRESS _**ESC.**_ THEN PRES _**:wq**_
 
 ### Deleting A Branch
 
@@ -250,7 +250,9 @@ git branch --delete {branch name}
 
 ### Git Ignore
 
-> ADD PATHS HERE FOR GITHUB TO IGNORE AND NOT ADD TO STAGING AREA
+> ADD PATHS INTO A **.gitignore** FILE FOR GIT TO ALWAYS IGNORE THESE FILES OR DIRECTORYS, AND NEVER THEM ADD TO THE STAGING AREA
+
+### Create a Gitignore File
 
 ```bash
 touch .gitignore
