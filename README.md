@@ -4,7 +4,7 @@
 
 ---
 
-## Going Into A Folder
+### Going Into A Folder
 
 ```bash
 cd {folder name}
@@ -12,43 +12,43 @@ cd {folder name}
 cd /c/Projects
 ```
 
-## Going Out Of A Folder
+### Going Out Of A Folder
 
 ```bash
 cd ..
 ```
 
-## Creating A Folder Or Directory
+### Creating A Folder Or Directory
 
 ```bash
 mkdir {folder name}
 ```
 
-## Deleting A Folder Or Directory
+### Deleting A Folder Or Directory
 
 ```bash
 rm -r {folder name}
 ```
 
-## Create File
+### Create File
 
 ```bash
 touch {file name}
 ```
 
-## Delete File
+### Delete File
 
 ```bash
 rm {file name}
 ```
 
-## Delete File & Stage Changes All In One Go
+### Delete File & Stage Changes All In One Go
 
 ```bash
 git rm {file name}
 ```
 
-## Open Up VS Code In A File
+### Open Up VS Code In A File
 
 ```bash
 code {file name}
@@ -58,13 +58,13 @@ code {file name}
 
 ---
 
-## Renaming A File
+### Renaming A File
 
 ```bash
 mv {file name} {file name to rename to}
 ```
 
-## Rename & Stage A File All In One Go
+### Rename & Stage A File All In One Go
 
 ```bash
 git mv {file name} {file name to rename to}
@@ -74,13 +74,13 @@ git mv {file name} {file name to rename to}
 
 ---
 
-## Initalize A Folder As A Git Repo
+### Initalize A Folder As A Git Repo
 
 ```bash
 git init
 ```
 
-## Add Files or File To Staging Area
+### Add Files or File To Staging Area
 
 ```bash
 git add .
@@ -88,7 +88,7 @@ git add .
 git add {file name}
 ```
 
-## Committing Files To Repo
+### Committing Files To Repo
 
 ```bash
 git commit -m "Inital Commit"
@@ -100,13 +100,13 @@ git commit -m "Inital Commit"
 git push -u origin master
 ```
 
-## Push Changes Github After Inital Push
+### Push Changes Github After Inital Push
 
 ```bash
 git push
 ```
 
-## Stage & Commit Files At The Same Time
+### Stage & Commit Files At The Same Time
 
 ```bash
 git commit -am "{message goes here}"
@@ -116,7 +116,7 @@ git commit -am "{message goes here}"
 
 ---
 
-## Cloning A Repo
+### Cloning A Repo
 
 > GO TO THE REPO ON GITHUB AND COPY THE LINK FROM THE REPO YOU WANT TO CLONE THEN RUN THE FOLLOWING COMMAND
 
@@ -128,13 +128,13 @@ git clone {copyed repo from github (THE REPO YOU WANT TO COPY)}
 
 ---
 
-## Remove A File Or All Files From Staging Area
+### Remove A File Or All Files From Staging Area
 
 ```bash
 git restore --staged {file name}
 ```
 
-## Remove Files Or Changes From Working Directory Or _REVERT BACK_
+### Remove Files Or Changes From Working Directory Or _REVERT BACK_
 
 ```bash
 git restore .
@@ -148,19 +148,19 @@ git restore {file name}
 git clean -fd
 ```
 
-## Restore The Last File Already Commited
+### Restore The Last File Already Commited
 
 ```bash
 git restore --source=HEAD~1 {name of file}
 ```
 
-## Append Text To A File
+### Append Text To A File
 
 ```bash
 echo {text goes here} >> {file name here}
 ```
 
-## Replace The Text In A File
+### Replace The Text In A File
 
 ```bash
 echo {text goes here} > {file name here}
@@ -170,7 +170,7 @@ echo {text goes here} > {file name here}
 
 ---
 
-## Check The Status
+### Check The Status
 
 ```bash
 git status
@@ -178,31 +178,31 @@ git status
 git status -s
 ```
 
-## See All Files In The Current Directory
+### See All Files In The Current Directory
 
 ```bash
 git ls-files
 ```
 
-## Check What Changes Were Made To ALL Files In The Staging Area
+### Check What Changes Were Made To ALL Files In The Staging Area
 
 ```bash
 git diff --staged
 ```
 
-## Check What Changes Were Made In The Working Directory
+### Check What Changes Were Made In The Working Directory
 
 ```bash
 git diff
 ```
 
-## Check To See If A Repo Has Has An Origin Or Is Already In Github
+### Check To See If A Repo Has Has An Origin Or Is Already In Github
 
 ```bash
 git remote
 ```
 
-## See A Log Of All Commits
+### See A Log Of All Commits
 
 ```bash
 git log --oneline
@@ -212,25 +212,25 @@ git log --oneline
 
 ---
 
-## See Branches
+### See Branches
 
 ```bash
 git branch
 ```
 
-## Add Branch
+### Add Branch
 
 ```bash
 git branch {branch name}
 ```
 
-## Switch Branches
+### Switch Branches
 
 ```bash
 git checkout {branch name}
 ```
 
-## Merge Branches (From Master)
+### Merge Branches (From Master)
 
 ```bash
 git merge {branch name}
@@ -238,7 +238,7 @@ git merge {branch name}
 
 > THEN PRESS I FOR INSERT THEN TYPE Added {Your Text Here}. THEN PRESS ESC. THEN PRES :wq
 
-## Deleting A Branch
+### Deleting A Branch
 
 ```bash
 git branch --delete {branch name}
@@ -248,7 +248,7 @@ git branch --delete {branch name}
 
 ---
 
-## Git Ignore
+### Git Ignore
 
 > ADD PATHS HERE FOR GITHUB TO IGNORE AND NOT ADD TO STAGING AREA
 
@@ -260,7 +260,7 @@ touch .gitignore
 
 ---
 
-## See Config Settings In VS CODE
+### See Config Settings In VS CODE
 
 ```bash
 git config --global -e
